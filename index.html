@@ -15,18 +15,20 @@
     </head>
     <body>
 
-        <div class="container-fluid">
+        <div class="container-fluid bg-light">
 
             <!-- Header and navigation menu -->
-            <header class="row bg-light">
+            <header class="row bg-white border-bottom" style="border-bottom-width: 2px!important;">
                 <div class="col-12 col-md-auto p-0 px-md-3">
-                    <h1 class="bg-info m-0 p-1 text-center">Sierra Chapman</h1>
+                    <h1 class="bg-info text-light m-0 p-3 text-center">Sierra Chapman</h1>
                 </div>
                 <div class="col-12 col-md align-self-center">
                     <nav class="nav justify-content-center justify-content-md-end">
-                        <a class="nav-item nav-link" href="#">About<span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">Portfolio</a>
-                        <a class="nav-item nav-link" href="#">Contact</a>
+                        <a class="nav-item text-muted nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                        <div class="vertical-line"></div>
+                        <a class="nav-item text-muted nav-link" href="#">Portfolio</a>
+                        <div class="vertical-line"></div>
+                        <a class="nav-item text-muted nav-link" href="#">Contact</a>
                     </nav>
                 </div>
             </header>
@@ -34,9 +36,10 @@
             <!-- Main content of the page-->
             <main class="row" style="min-height: 1000px">
                 <div class="col-12">
-                    <section class="card my-3" style="max-width: 738px;">
-                        <h2 class="card-header">About Me</h2>
-                        <div class="card-body">
+                    <section class="card my-3 rounded-0" style="max-width: 738px;">
+                        <h2 class="card-header bg-white text-info border-0">About Me</h2>
+                        <hr class="my-0" style="border-top-width: 2px; margin-left: 20px; margin-right: 20px;"/>
+                        <div class="card-body text-secondary">
                             <img src="assets/images/portrait.jpeg" alt="picture of me" class="img-fluid float-left mb-3 mr-3" id="pic-of-me"/>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae aliquet nec ullamcorper sit amet risus. Suspendisse in est ante in nibh mauris cursus mattis molestie. Est lorem ipsum dolor sit amet consectetur. Dapibus ultrices in iaculis nunc sed. Varius duis at consectetur lorem donec. </p>
                             <p class="card-text">A cras semper auctor neque vitae. Dictum sit amet justo donec enim diam vulputate ut pharetra. Tortor aliquam nulla facilisi cras fermentum odio eu. Consectetur lorem donec massa sapien. Semper viverra nam libero justo laoreet sit amet cursus.</p>
@@ -46,7 +49,7 @@
             </main>
 
             <!-- Footer -->
-            <footer class="row bg-secondary text-light">
+            <footer class="row bg-secondary text-light border-top border-info" style="border-top-width: 5px!important;">
                 <div class="col-12">
                     <p class="text-center m-4">&copy; Copyright</p>
                 </div>
