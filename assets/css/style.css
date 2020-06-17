@@ -69,6 +69,21 @@ header {
     padding-bottom: 30px;
 }
 
+.portfolio-item-overlay {
+    position: absolute;
+    bottom: 24px;
+    right: 15px;
+    left: 15px;
+
+    padding: 8px 0;
+    background-color: #59aaa5;
+
+    color: #ffffff;
+    font-size: 24px;
+    font-family: serif;
+    text-align: center;
+}
+
 /* Footer styling */
 
 footer {
