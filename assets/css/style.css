@@ -63,6 +63,12 @@ header {
     background-color: #478682;
 }
 
+/* Portfolio styling */
+
+.portfolio-item {
+    padding-bottom: 30px;
+}
+
 /* Footer styling */
 
 footer {
