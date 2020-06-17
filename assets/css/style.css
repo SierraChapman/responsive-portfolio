@@ -1,5 +1,8 @@
 body {
     line-height: 2;
+    background-image: url("../images/background.png");
+    background-color: #eee;
+    background-size: 400px;
 }
 
 h1, h2 {
