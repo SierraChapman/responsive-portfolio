@@ -1,12 +1,30 @@
 body {
     line-height: 2;
     background-image: url("../images/background.png");
-    background-color: #eee;
+    background-color: #eaeaea;
     background-size: 400px;
 }
 
 h1, h2 {
     font-family: serif;
+}
+
+header {
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0 0 2px 0;
+}
+
+#about-card {
+    max-width: 738px;
+    border-color: #dddddd;
+}
+
+#hr-about-card {
+    border-top-width: 2px; 
+    border-color: #dddddd;
+    margin-left: 20px; 
+    margin-right: 20px;
 }
 
 .vertical-line {
@@ -15,11 +33,38 @@ h1, h2 {
 
     border-left-style: solid;
     border-width: 1px;
-    border-color: rgb(245, 245, 245);
+    border-color: #efefef;
 }
 
 footer {
     font-size: 0.6rem;
+    color: #cccccc;
+
+    background-color: #666666;
+
+    border-style: solid;
+    border-color: #59aaa5;
+    border-width: 5px 0 0 0;
+}
+
+.teal-background {
+    background-color: #59aaa5;
+}
+
+.teal-text {
+    color: #59aaa5;
+}
+
+.gray-text {
+    color: #777777;
+}
+
+.gray-nav-link {
+    color: #999999;
+}
+
+.gray-nav-link:hover {
+    color: #666666;
 }
 
 @media (min-width: 645px) {
